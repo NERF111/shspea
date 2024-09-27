@@ -1,0 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace New_folder__3_.shspea.code
+{
+    public interface IDevice
+    {
+        void TurnOn();
+        void TurnOff();
+        string Status();
+    }
+}
